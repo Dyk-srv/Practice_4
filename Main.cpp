@@ -70,7 +70,7 @@ int main() {
 	int n;
 
 	// Задача 1
-	std::cout << "Задача 1\n";
+	std::cout << "\t\tЗадача 1\n";
 	const int size1 = 20;
 	int arr1[size1];
 	fill_arr(arr1, size1, 0, 10);
@@ -83,6 +83,7 @@ int main() {
 	print_arr(arr1, size1);
 
 	// Задача 2
+	std::cout << "\n\t\tЗадача 2\n";
 	int index, sum;
 	const int sizeA = 20;
 	int arr_A[sizeA];
@@ -101,7 +102,7 @@ int main() {
 		std::cout << "A[" << index << "] + B[" << index  << "] = " << index_sum(arr_A, arr_B, sizeA, sizeB, index) << '\n';
 
 	// Задача 3
-	std::cout << "Задача 3\n";
+	std::cout << "\n\t\tЗадача 3\n";
 	const int size3 = 20;
 	int arr3[size3];
 	fill_arr(arr3, size3, 1, 10);
@@ -110,7 +111,7 @@ int main() {
 	std::cout << "Среднее арифметическое максимального и минимального элементов: " << mean_arr(arr3, size3) << '\n';
 
 	// Задача 4
-	std::cout << "Задача 4\n";
+	std::cout << "\n\t\tЗадача 4\n";
 	int begin, end;
 	std::cout << "Введите начало диапазона -> ";
 	std::cin >> begin;
@@ -121,7 +122,7 @@ int main() {
 	std::cout << '\n';
 
 	// Задача 5
-	std::cout << "Задача 5\n";
+	std::cout << "\n\t\tЗадача 5\n";
 	const int size5 = 11;
 	int arr5[size5];
 	fill_arr(arr5, size5, 0, 10);
